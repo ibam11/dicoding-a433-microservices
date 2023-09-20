@@ -1,0 +1,42 @@
+dicoding-a433-microservices-item-app-1  | 2023-09-20T14:55:52.786380754Z 
+dicoding-a433-microservices-item-app-1  | 2023-09-20T14:55:52.786922809Z > docker-software-delivery@1.0.0 start /app
+dicoding-a433-microservices-item-app-1  | 2023-09-20T14:55:52.786946217Z > node ./bin/www
+dicoding-a433-microservices-item-app-1  | 2023-09-20T14:55:52.786953909Z 
+dicoding-a433-microservices-item-app-1  | 2023-09-20T14:55:57.390361662Z NODE_ENV: production
+dicoding-a433-microservices-item-app-1  | 2023-09-20T14:55:57.760898587Z Connected to database
+dicoding-a433-microservices-item-db-1   | 2023-09-20T14:55:50.602913301Z 2023-09-20T14:55:50.586+0000 I CONTROL  [initandlisten] MongoDB starting : pid=1 port=27017 dbpath=/data/db 64-bit host=8e3e1b26a44e
+dicoding-a433-microservices-item-db-1   | 2023-09-20T14:55:50.603006497Z 2023-09-20T14:55:50.602+0000 I CONTROL  [initandlisten] db version v3.6.23
+dicoding-a433-microservices-item-db-1   | 2023-09-20T14:55:50.603027002Z 2023-09-20T14:55:50.602+0000 I CONTROL  [initandlisten] git version: d352e6a4764659e0d0350ce77279de3c1f243e5c
+dicoding-a433-microservices-item-db-1   | 2023-09-20T14:55:50.603044161Z 2023-09-20T14:55:50.602+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+dicoding-a433-microservices-item-db-1   | 2023-09-20T14:55:50.603059646Z 2023-09-20T14:55:50.602+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+dicoding-a433-microservices-item-db-1   | 2023-09-20T14:55:50.603070702Z 2023-09-20T14:55:50.602+0000 I CONTROL  [initandlisten] modules: none
+dicoding-a433-microservices-item-db-1   | 2023-09-20T14:55:50.603088183Z 2023-09-20T14:55:50.602+0000 I CONTROL  [initandlisten] build environment:
+dicoding-a433-microservices-item-db-1   | 2023-09-20T14:55:50.603108382Z 2023-09-20T14:55:50.602+0000 I CONTROL  [initandlisten]     distmod: ubuntu1604
+dicoding-a433-microservices-item-db-1   | 2023-09-20T14:55:50.603125697Z 2023-09-20T14:55:50.602+0000 I CONTROL  [initandlisten]     distarch: x86_64
+dicoding-a433-microservices-item-db-1   | 2023-09-20T14:55:50.603145841Z 2023-09-20T14:55:50.602+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+dicoding-a433-microservices-item-db-1   | 2023-09-20T14:55:50.603281322Z 2023-09-20T14:55:50.602+0000 I CONTROL  [initandlisten] options: { net: { bindIpAll: true } }
+dicoding-a433-microservices-item-db-1   | 2023-09-20T14:55:50.607480753Z 2023-09-20T14:55:50.606+0000 I -        [initandlisten] Detected data files in /data/db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+dicoding-a433-microservices-item-db-1   | 2023-09-20T14:55:50.607756000Z 2023-09-20T14:55:50.606+0000 I STORAGE  [initandlisten] 
+dicoding-a433-microservices-item-db-1   | 2023-09-20T14:55:50.607865535Z 2023-09-20T14:55:50.606+0000 I STORAGE  [initandlisten] ** WARNING: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine
+dicoding-a433-microservices-item-db-1   | 2023-09-20T14:55:50.607880301Z 2023-09-20T14:55:50.606+0000 I STORAGE  [initandlisten] **          See http://dochub.mongodb.org/core/prodnotes-filesystem
+dicoding-a433-microservices-item-db-1   | 2023-09-20T14:55:50.607889189Z 2023-09-20T14:55:50.607+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=1454M,cache_overflow=(file_max=0M),session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),compatibility=(release="3.0",require_max="3.0"),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+dicoding-a433-microservices-item-db-1   | 2023-09-20T14:55:56.379850034Z 2023-09-20T14:55:56.372+0000 I STORAGE  [initandlisten] WiredTiger message [1695221756:372653][1:0x7f6c22bcaa40], txn-recover: Main recovery loop: starting at 4/6144
+dicoding-a433-microservices-item-db-1   | 2023-09-20T14:55:56.814488199Z 2023-09-20T14:55:56.811+0000 I STORAGE  [initandlisten] WiredTiger message [1695221756:811942][1:0x7f6c22bcaa40], txn-recover: Recovering log 4 through 5
+dicoding-a433-microservices-item-db-1   | 2023-09-20T14:55:57.033198466Z 2023-09-20T14:55:57.032+0000 I STORAGE  [initandlisten] WiredTiger message [1695221757:32094][1:0x7f6c22bcaa40], txn-recover: Recovering log 5 through 5
+dicoding-a433-microservices-item-db-1   | 2023-09-20T14:55:57.461806660Z 2023-09-20T14:55:57.459+0000 I STORAGE  [initandlisten] WiredTiger message [1695221757:459198][1:0x7f6c22bcaa40], txn-recover: Set global recovery timestamp: 0
+dicoding-a433-microservices-item-db-1   | 2023-09-20T14:55:57.569266311Z 2023-09-20T14:55:57.568+0000 I CONTROL  [initandlisten] 
+dicoding-a433-microservices-item-db-1   | 2023-09-20T14:55:57.569728873Z 2023-09-20T14:55:57.569+0000 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+dicoding-a433-microservices-item-db-1   | 2023-09-20T14:55:57.569853855Z 2023-09-20T14:55:57.569+0000 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+dicoding-a433-microservices-item-db-1   | 2023-09-20T14:55:57.569873187Z 2023-09-20T14:55:57.569+0000 I CONTROL  [initandlisten] 
+dicoding-a433-microservices-item-db-1   | 2023-09-20T14:55:57.684891929Z 2023-09-20T14:55:57.683+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/data/db/diagnostic.data'
+dicoding-a433-microservices-item-db-1   | 2023-09-20T14:55:57.689067762Z 2023-09-20T14:55:57.688+0000 I NETWORK  [initandlisten] listening via socket bound to 0.0.0.0
+dicoding-a433-microservices-item-db-1   | 2023-09-20T14:55:57.689673990Z 2023-09-20T14:55:57.689+0000 I NETWORK  [initandlisten] listening via socket bound to /tmp/mongodb-27017.sock
+dicoding-a433-microservices-item-db-1   | 2023-09-20T14:55:57.690546875Z 2023-09-20T14:55:57.690+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+dicoding-a433-microservices-item-db-1   | 2023-09-20T14:55:57.700513285Z 2023-09-20T14:55:57.700+0000 I NETWORK  [listener] connection accepted from 172.18.0.2:50042 #1 (1 connection now open)
+dicoding-a433-microservices-item-db-1   | 2023-09-20T14:55:57.727972464Z 2023-09-20T14:55:57.727+0000 I NETWORK  [conn1] received client metadata from 172.18.0.2:50042 conn1: { driver: { name: "nodejs", version: "2.2.36" }, os: { type: "Linux", name: "linux", architecture: "x64", version: "5.15.49-linuxkit-pr" }, platform: "Node.js v14.21.3, LE, mongodb-core: 2.1.20" }
+dicoding-a433-microservices-item-app-1  | 2023-09-20T14:58:17.852745543Z [0mGET / [32m200 [0m881.504 ms - 785[0m
+dicoding-a433-microservices-item-app-1  | 2023-09-20T14:58:17.943680054Z [0mGET /javascripts/dist/dist.min.js [36m304 [0m8.616 ms - -[0m
+dicoding-a433-microservices-item-app-1  | 2023-09-20T14:58:18.046799959Z [0mGET /stylesheets/style.css [32m200 [0m111.934 ms - 519[0m
+dicoding-a433-microservices-item-app-1  | 2023-09-20T14:58:18.115074070Z [0mGET /api [32m200 [0m21.650 ms - 53[0m
+dicoding-a433-microservices-item-app-1  | 2023-09-20T14:58:18.627694836Z [0mGET /favicon.ico [33m404 [0m23.346 ms - 270[0m
+dicoding-a433-microservices-item-app-1  | 2023-09-20T14:58:25.990425646Z [0mPOST /api [32m201 [0m55.091 ms - 53[0m
