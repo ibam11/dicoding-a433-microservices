@@ -7,10 +7,9 @@ services:
       - app-db:/data/db
     restart: on-failure
   item-app:
-    image: item-app:v1
-    #command: sh -c "yarn install & yarn run dev"
+    image: ibam11/item-app:v1
     ports:
-      - 8081:8080
+      - 80:8080
     working_dir: /app
     environment:
       NODE_ENV: production
